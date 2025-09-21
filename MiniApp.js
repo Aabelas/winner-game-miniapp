@@ -8,7 +8,7 @@ const LoadingIcon = () => (
       role="img"
       aria-label="trophy"
     >
-      ðŸš€
+      🏆
     </span>
     <style>{
       @keyframes spin {
@@ -60,7 +60,7 @@ function CashbackInfo({ cashbackPercent }) {
       color: "#333",
       textAlign: "center",
     }}>
-      Daily {cashbackPercent}% cashback on lost money in 24 hours! ðŸŽ‰
+      Daily {cashbackPercent}% cashback on lost money in 24 hours! 🎉
     </div>
   );
 }
@@ -72,7 +72,7 @@ function HeaderWithBack({ title, onBack }) {
       <button onClick={onBack} style={{
         background: "none", border: "none", fontSize: 24,
         color: "#FFFFFF", cursor: "pointer", marginRight: 10
-      }}>â†</button>
+      }}>←</button>
       <h2 style={{ margin: 0 }}>{title}</h2>
     </div>
   );
@@ -197,4 +197,4 @@ export default function MiniApp() {
         </div>
       )
   }
-          }
+}
